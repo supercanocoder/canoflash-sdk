@@ -11,7 +11,26 @@ Your GBA game  ⇄  Link port  ⇄  CanoFlash  ⇄  Wi-Fi / TLS  ⇄  Relay
 ```
 
 [Get started](docs/getting-started.md) · [Examples](examples/README.md) ·
-[API reference](docs/api.md) · [Troubleshooting](docs/troubleshooting.md)
+[API reference](docs/api.md) · [Troubleshooting](docs/troubleshooting.md) ·
+[CanoFlash website](https://canoflash.com/en/)
+
+## About CanoFlash
+
+[CanoFlash](https://canoflash.com/en/) is the hardware companion for this SDK.
+It connects to a Game Boy Advance through the Link port and provides the
+network connection used by your game; the SDK runs on the GBA and communicates
+with the device through that physical link.
+
+The SDK documentation covers game integration. For the device itself, use the
+official CanoFlash guides:
+
+- [Set up and use a CanoFlash](https://canoflash.com/en/docs/device/getting-started): Wi-Fi, Multiboot, operating modes and automatic shutdown.
+- [Device documentation](https://canoflash.com/en/docs): battery, compatible cartridges, loading ROMs, updates and troubleshooting.
+- [CanoFlash dashboard](https://canoflash.com/en/dashboard): link a device to an account and register a game to obtain its API key.
+
+Every player needs their own configured CanoFlash. The device authenticates the
+player account; the API key compiled into your ROM identifies the game and its
+room namespace.
 
 ## Features
 
