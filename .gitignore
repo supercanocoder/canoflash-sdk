@@ -1,0 +1,11 @@
+*.elf
+*.gba
+*.o
+*.d
+*.map
+*.sav
+build/
+.DS_Store
+
+# Personal example settings
+/examples/canoflash_example_config.local.h
