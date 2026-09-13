@@ -4,6 +4,10 @@
 
 From a fresh SDK checkout to two consoles exchanging positions.
 
+To try the demos without a toolchain, download the
+[compiled example ROMs](../roms/README.md). They include a shared demo game key;
+the steps below are for building the examples or developing your own game.
+
 ## Get the SDK
 
 Clone the public repository and select the release used by your game:

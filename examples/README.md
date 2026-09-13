@@ -11,6 +11,9 @@
 The SDK core is shared by all three. You can compile with no device and no
 registered key; online play needs a configured CanoFlash per console.
 
+For compiled `.gba` downloads and their online configuration, see
+[Example ROMs](../roms/README.md).
+
 ## Set your game key
 
 All examples include [canoflash_example_config.h](canoflash_example_config.h).

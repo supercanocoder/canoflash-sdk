@@ -50,6 +50,10 @@ Build from a clean checkout of this repository, without relying on sibling
 project folders. Preserve licence notices. Do not include ignored build
 outputs or the local key header in source archives.
 
+Published example binaries belong in `roms/`, where they are intentionally
+tracked. When updating them, record their source revision, toolchain and online
+configuration in `roms/README.md`, and refresh `roms/SHA256SUMS`.
+
 The first public release is SDK 1.0.0 with CanoFlash firmware 1.0.0. Before
 creating its release tag, record the exact SDK revision, toolchain and hardware
 validation results. For subsequent releases, update the header version,

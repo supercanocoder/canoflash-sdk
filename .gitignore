@@ -1,5 +1,7 @@
 *.elf
 *.gba
+# Published example ROMs are versioned separately from local build outputs.
+!/roms/*.gba
 *.o
 *.d
 *.map

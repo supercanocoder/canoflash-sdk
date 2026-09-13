@@ -55,6 +55,10 @@ provide a CanoFlash internet connection. See [loading and testing](docs/getting-
 
 ## Start with an example
 
+Compiled `.gba` files for all three examples are available in
+[Download example ROMs](roms/README.md). Read that page for online configuration,
+loading instructions and the source revision used to build them.
+
 Clone the standalone SDK:
 
 ```sh

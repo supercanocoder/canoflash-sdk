@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased
+
+- Added downloadable ROMs for all three SDK 1.0.0 examples, built with a
+  registered public demo game key, build notes, checksums and runtime notices.
+- The `v1.0.0` tag remains the original source release; compiled downloads are
+  maintained in `roms/` on `main`.
+
 ## 1.0.0 — 2026-09-13
 
 First public release: tag `v1.0.0` in

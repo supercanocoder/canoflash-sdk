@@ -13,3 +13,13 @@ vendored in this SDK. Its own distribution contains additional dependency
 notices. See [the Butano repository](https://github.com/GValiente/butano).
 
 The CanoFlash logo is bundled with the lobby example.
+
+## Compiled example ROMs
+
+The ROMs in `roms/` include code from their build dependencies. The plain C
+example uses libgba and the devkitARM runtime; the Butano examples use Butano
+and its dependencies. Upstream notices are preserved in
+[LICENSES/runtime](LICENSES/runtime), including the complete notice set shipped
+with the Butano revision recorded in [the ROM build notes](roms/README.md).
+This notice set covers optional engine components as well; it does not mean
+every component is used by each example.
